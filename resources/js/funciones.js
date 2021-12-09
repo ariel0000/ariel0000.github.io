@@ -9,7 +9,7 @@ function init() {
 }
 
 function wsConnect() {
-    websocket= new WebSocket("ws://localhost:3000");
+    websocket= new WebSocket("ws://localhost:8080");
 
     websocket.onopen = function (evt) {
         onOpen(evt)
