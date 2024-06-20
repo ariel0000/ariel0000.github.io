@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Información sobre Ariel Rosa</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-12 profile">
+                <h3>Ariel Rosa</h3>
+                <h5>Analista en Sistemas</h5>
+                <div class="menu">
+                    <img id="about" src="./img/user-hand-up-svgrepo-com.svg" alt="About me"
+                        onclick="handleMenu(this.id)" />
+                    <img id="degree" src="./img/book-bookmark-svgrepo-com.svg" alt="Degrees and learning"
+                        onclick="handleMenu(this.id)" />
+                    <img id="experience" src="./img/routing-3-svgrepo-com.svg" alt="experience"
+                        onclick="handleMenu(this.id)" />
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-8 col-12 content" id="content">
+            </div>
+            <div id="footer" class="col-12 footer">
+                Acá irían iconos con links. Ej: linkedin, perfil de instagram y más
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/funciones.js"></script>
+</body>
+
+</html>
