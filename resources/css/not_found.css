@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #7eddff;
+    display: flex;
+    height: 90%;
+    margin-top: 30px;
+
+    .row {
+        height: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .not_found {
+        text-align: center;
+    }
+
+    .img_bug {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+
+        img {
+            max-height: 50%;
+            max-width: 90%;
+        }
+    }
+
+    .button_not_found {
+        display: flex;
+        justify-content: center;
+
+        button {
+            max-width: fit-content;
+        }
+    }
+
+}

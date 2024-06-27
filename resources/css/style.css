@@ -11,7 +11,7 @@ a {
 body {
     background-color: #7eddff;
     display: flex;
-    height: 90%;
+    height: 100%;
 
     .row {
         height: 100%;
@@ -24,11 +24,10 @@ body {
         margin-top: 30px;
         padding: 10px;
         text-align: center;
-        height: 80%;
         border-radius: 15px;
+        height: fit-content;
 
         .menu {
-            height: 90%;
             width: 100%;
             display: flex;
             align-items: center;
@@ -37,11 +36,15 @@ body {
 
             img {
                 user-select: none;
-                margin: 10px;
+                margin: 15px;
                 max-width: 25%;
                 background-color: rgba(126, 221, 255, 0.9);
                 border-radius: 10px;
                 padding: 5px;
+            }
+
+            >img:first-of-type {
+                margin-top: 30px;
             }
 
             img:hover {
@@ -64,35 +67,72 @@ body {
     .content {
         margin-top: 30px;
         text-align: center;
+
+        .texto_content {
+            padding: 10px;
+        }
+
+        h6 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
     }
 
     /**
         Elementos de content: About me, degrees, experience
     */
-    .degrees {
+
+    .center {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .justify {
         display: flex;
         flex-flow: wrap;
         justify-content: space-between;
         text-align: justify;
+    }
 
-        .degree {
-            margin: 10px;
-            padding: 10px;
+    .aside {
+        display: flex;
+        flex-flow: nowrap;
+        justify-content: space-between;
+        text-align: justify;
+    }
 
-            img {
-                max-width: 50px;
-            }
+    .content_inside {
+        margin-bottom: 10px;
+        padding: 10px;
+
+        img {
+            margin: 5px;
+            max-width: 50px;
         }
+    }
 
+    .content_inside_flex {
+        margin: 5px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+
+        img {
+            margin: 5px;
+            max-width: 50px;
+        }
     }
 
     /* Fin elementos de content */
 
     .footer {
-        background-color: whitesmoke;
-        padding: 6px;
-        border-radius: 10px;
-        margin-top: 20px;
+        background-color: #ffdf69;
         text-align: center;
+    }
+
+    .space {
+        padding-bottom: 10px;
     }
 }
