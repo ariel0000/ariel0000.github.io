@@ -4,7 +4,7 @@ const fechaNace = new Date("1994-05-23");
 const fechaActual = new Date();
 const edad = Math.floor(((fechaActual - fechaNace) / (1000 * 60 * 60 * 24) / 365));
 
-const about = "Hi. I'm " + edad + " years old and this web page is my portofolio. About my i have to say that i like to develop in backend more than frontend but have both experiences. Personally i want my skill grow up and get more knowledge doing new IT projects."
+const about = "Hi. I'm " + edad + " years old and this web page is my portofolio. About my i have to say that i like to develop in backend more than frontend but have both experiences. I want my skill grow up and continue get more knowledge doing new IT projects."
 const degree = "Here show the degrees courses and studies that I made";
 const experience = "Some of my experiences was working in a software company and others like particular developer."
 
@@ -111,7 +111,7 @@ function handleMenu(id) {
             printLetterByLetter(node2, textNode2.data, 50);
             completeContent("justify", "content_inside",
                 ["Primary School", "Secodary School Bachelor and Electronic Technician",
-                    "University: System Analyst Degree", "Invest and Study: Libro React+MongoDB+Node...",
+                    "University: System Analyst Degree", "Invest: Programación Reactiva con React-NodeJS-MongoDB",
                     "Course: API Rest With Spring Boot", "Course: NestJS Zero to Hero - Modern TS Back-end Dev", "Course: Ionic Framework with React and MongoDB"],
                 ["./img/book-bookmark-svgrepo-com.svg", "./img/book-bookmark-svgrepo-com.svg", "./img/square-academic-cap.svg",
                     "./img/book-2-svgrepo-com.svg", "./img/diploma-svgrepo-com.svg", "./img/diploma-svgrepo-com.svg", "./img/diploma-svgrepo-com.svg"],
@@ -137,7 +137,7 @@ function handleMenu(id) {
             document.getElementById("content").appendChild(node2);
             printLetterByLetter(node2, textNode2.data, 50);
             putSubtitle("First Project: JAVA + PostreSQL", "h6");
-            completeContent("center", "content_inside_flex", ["I'd did the steps from design and analysis to develop and implementation"],
+            completeContent("center", "content_inside_flex", ["I'd did the steps from analysis and design to develop and implementation"],
                 ["./img/folder-favourite-star.svg"], ["https://drive.google.com/drive/folders/17xlkq5XtjvSYHU4_Z8kdXklvSNwLnF0I?usp=drive_link"]);
             putSubtitle("Second Project: React JS + Express JS + Spring Boot + PostreSQL", "h6");
             completeContent("center", "content_inside_flex", ["Was a non profit project. The first with new techs (in that moment) and start it to learn and improve my web developer skills"],
