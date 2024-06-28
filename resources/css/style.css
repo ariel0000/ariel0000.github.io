@@ -130,9 +130,19 @@ body {
     .footer {
         background-color: #ffdf69;
         text-align: center;
+
+        img {
+            max-width: 30px;
+            padding: 2px;
+        }
     }
 
     .space {
         padding-bottom: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgba(9, 42, 251, 0.9);
     }
 }
