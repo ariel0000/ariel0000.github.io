@@ -82,16 +82,16 @@ function handleMenu(id) {
             document.getElementById("content").appendChild(node_title);
             completeContent('center', 'content_inside', ['Bootstrap', 'Javascript', 'Ionic Framework', 'React JS',
                 'TypeScript', 'Express JS', 'Node JS', 'Nest JS', 'Java', 'Spring Boot', 'MySQL', 'PostgreSQL', 'MongoDB'],
-                ["./img/code-file-svgrepo-com.svg", "./img/code-square-svgrepo-com.svg", "./img/code-scan-svgrepo-com.svg",
-                    "./img/atom-svgrepo-com.svg", "./img/code-square-svgrepo-com.svg", "./img/code-file-svgrepo-com.svg",
-                    "./img/atom-svgrepo-com.svg", "./img/code-scan-svgrepo-com.svg", "./img/code-square-svgrepo-com.svg", "./img/code-scan-svgrepo-com.svg",
-                    "./img/database-svgrepo-com.svg", "./img/database-svgrepo-com.svg", "./img/database-svgrepo-com.svg"]);
+                ["./resources/img/code-file-svgrepo-com.svg", "./resources/img/code-square-svgrepo-com.svg", "./resources/img/code-scan-svgrepo-com.svg",
+                    "./resources/img/atom-svgrepo-com.svg", "./resources/img/code-square-svgrepo-com.svg", "./resources/img/code-file-svgrepo-com.svg",
+                    "./resources/img/atom-svgrepo-com.svg", "./resources/img/code-scan-svgrepo-com.svg", "./resources/img/code-square-svgrepo-com.svg", "./resources/img/code-scan-svgrepo-com.svg",
+                    "./resources/img/database-svgrepo-com.svg", "./resources/img/database-svgrepo-com.svg", "./resources/img/database-svgrepo-com.svg"]);
             const node_title2 = document.createElement('h6');
             const node_text2 = document.createTextNode('Another Skills');
             node_title2.appendChild(node_text2);
             document.getElementById("content").appendChild(node_title2);
             completeContent('aside', 'content_inside_flex', ['I have knowledge in techs and resources like Firebase, Socket.io, GIT & GITLAB, Redmine, SOAP, Formik, Liquibase and more'],
-                ["./img/paperclip-2-svgrepo-com.svg"]);
+                ["./resources/img/paperclip-2-svgrepo-com.svg"]);
             break;
         case "degree":
             if (selectedNode === "degree") {
@@ -113,8 +113,8 @@ function handleMenu(id) {
                 ["Primary School", "Secodary School Bachelor and Electronic Technician",
                     "University: System Analyst Degree", "Invest: Programación Reactiva con React-NodeJS-MongoDB",
                     "Course: API Rest With Spring Boot", "Course: NestJS Zero to Hero - Modern TS Back-end Dev", "Course: Ionic Framework with React and MongoDB"],
-                ["./img/book-bookmark-svgrepo-com.svg", "./img/book-bookmark-svgrepo-com.svg", "./img/square-academic-cap.svg",
-                    "./img/book-2-svgrepo-com.svg", "./img/diploma-svgrepo-com.svg", "./img/diploma-svgrepo-com.svg", "./img/diploma-svgrepo-com.svg"],
+                ["./resources/img/book-bookmark-svgrepo-com.svg", "./resources/img/book-bookmark-svgrepo-com.svg", "./resources/img/square-academic-cap.svg",
+                    "./resources/img/book-2-svgrepo-com.svg", "./resources/img/diploma-svgrepo-com.svg", "./resources/img/diploma-svgrepo-com.svg", "./resources/img/diploma-svgrepo-com.svg"],
                 ["https://www.facebook.com/escuelasecundariasanjorgejunin/", "https://www.facebook.com/eest1junin/?locale=es_LA",
                     "https://unnoba.edu.ar", "https://reactiveprogramming.io/books/aplicaciones-reactivas-con-react-nodejs-mongodb/es",
                     "https://drive.google.com/file/d/1qR7Cycrs5LR31dQpJAb2Zgvqao09HVRP/view?usp=sharing", "./no_disponible.html?reason=The course was taken at work", "https://drive.google.com/file/d/1jF5ej3Gl4aLrSzvdrrSNz7DcCSMbM1-F/view?usp=sharing"]
@@ -138,16 +138,16 @@ function handleMenu(id) {
             printLetterByLetter(node2, textNode2.data, 50);
             putSubtitle("First Project: JAVA + PostreSQL", "h6");
             completeContent("center", "content_inside_flex", ["I'd did the steps from analysis and design to develop and implementation"],
-                ["./img/folder-favourite-star.svg"], ["https://drive.google.com/drive/folders/17xlkq5XtjvSYHU4_Z8kdXklvSNwLnF0I?usp=drive_link"]);
+                ["./resources/img/folder-favourite-star.svg"], ["https://drive.google.com/drive/folders/17xlkq5XtjvSYHU4_Z8kdXklvSNwLnF0I?usp=drive_link"]);
             putSubtitle("Second Project: React JS + Express JS + Spring Boot + PostreSQL", "h6");
             completeContent("center", "content_inside_flex", ["Was a non profit project. The first with new techs (in that moment) and start it to learn and improve my web developer skills"],
-                ["./img/folder-favourite-star.svg"], ["https://drive.google.com/drive/folders/1rUFVk4IPVnrC-2IPnGihhFw7ebwlj_Fk?usp=drive_link"]);
+                ["./resources/img/folder-favourite-star.svg"], ["https://drive.google.com/drive/folders/1rUFVk4IPVnrC-2IPnGihhFw7ebwlj_Fk?usp=drive_link"]);
             putSubtitle("First project in dependent work - Nest JS + Keycloack + Ionic Angular", "h6");
             completeContent("center", "content_inside_flex", ["In this project I worked in backend using the NodeJs framework NestJS"],
-                ["./img/folder-favourite-star.svg"], ["https://drive.google.com/drive/folders/1eI9Ta_W8ZtQvzkhE2t8BAL2lqnIGZBe-?usp=drive_link"]);
+                ["./resources/img/folder-favourite-star.svg"], ["https://drive.google.com/drive/folders/1eI9Ta_W8ZtQvzkhE2t8BAL2lqnIGZBe-?usp=drive_link"]);
             putSubtitle("Own Project: NestJS + MongoDB + Ionic Framework with React JS", "h6");
             completeContent("center", "content_inside_flex", ["Is the project that I working now. I did all the structure of Backend and Frontend"],
-                ["./img/folder-favourite-star.svg"], ["https://drive.google.com/drive/folders/1ILRuaPDQImQGtgNjt1Xx581yzzEUQlxF"]);
+                ["./resources/img/folder-favourite-star.svg"], ["https://drive.google.com/drive/folders/1ILRuaPDQImQGtgNjt1Xx581yzzEUQlxF"]);
             break;
     }
 }
