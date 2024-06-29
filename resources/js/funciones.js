@@ -4,7 +4,7 @@ const fechaNace = new Date("1994-05-23");
 const fechaActual = new Date();
 const edad = Math.floor(((fechaActual - fechaNace) / (1000 * 60 * 60 * 24) / 365));
 
-const about = "Hi. I'm " + edad + " years old and this web page is my portofolio. About my i have to say that i like to develop in backend more than frontend but have both experiences. I want my skill grow up and continue get more knowledge doing new IT projects."
+const about = "Hi. I'm " + edad + " years old and this web page is my briefcase. About my I have to say that I like to develop in backend more than frontend but have both experiences. I want my skill grow up and continue get more knowledge doing new IT projects."
 const degree = "Here show the degrees courses and studies that I made";
 const experience = "Some of my experiences was working in a software company and others like particular developer."
 
