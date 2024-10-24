@@ -54,12 +54,12 @@ body {
             }
 
             img:active {
-                background-color: rgba(251, 187, 251, 0.6);
+                background-color: rgba(210, 240, 200, 0.6);
                 transition: ease-in 0.1s;
             }
 
             .activado {
-                background-color: rgba(251, 187, 251, 0.6);
+                background-color: rgba(190, 240, 170, 0.6);
             }
         }
     }
